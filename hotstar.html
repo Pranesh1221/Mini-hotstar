@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotstar</title>
+    <link rel="stylesheet" href="./hotstar.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <div id="logo">
+        <a href="./index.html"
+          ><img
+            src="https://secure-media.hotstarext.com/web-assets/prod/images/brand-logos/disney-hotstar-logo-dark.svg"
+            alt="MasaiLogo"
+        /></a>
+        <a href="./movie.html"><p>Movies</p></a>
+        <p>TV</p>
+        <p>Sports</p>
+        <a href="./trending.html"><p>Trending</p></a>
+        <img
+          src="https://www.hotstar.com/assets/4aa70ede8904e16b7630300c09219c8e.svg"
+          alt="kids"
+        />
+      </div>
+      <div id="search-box">
+        <input
+          type="text"
+          name=""
+          id="query"
+          placeholder="Search"
+          oninput="main()"
+        />
+        <div>
+          <i id="search-icon"></i>
+        </div>
+      </div>
+    </div>
+
+    <div id="content">
+      <div id="result"></div>
+    </div>
+
+    <div id="slider">
+      <img
+        id="imgSlide"
+        src="https://images.hdqwalls.com/download/avengers-infinity-war-hd-poster-vp-1920x1200.jpg"
+      />
+    </div>
+  </body>
+</html>
+<script src="./hotstar.js"></script>
